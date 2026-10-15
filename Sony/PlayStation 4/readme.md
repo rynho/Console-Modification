@@ -1,0 +1,3 @@
+For firmware version 9.00, it requires [pOOBs4](https://github.com/ChendoChap/pOOBs4) kernel exploit, which involes a USB flash drive with specifically crafted exFAT filesystem alongside browser payload triggering WebKit exploit. A successful exploit would trigger a plugin like GoldHEN.
+
+All-in-One version [ESP32-Server-900u](https://github.com/stooged/ESP32-Server-900u) is available by burning a firmware to an ESP32 development board (e.g., ESP32-S2 Mini), leveraging the onboard OTG port to simulate USB key and trigger exFAT exploit, and trigger the WebKit exploit through onboard WiFi connectivity.
